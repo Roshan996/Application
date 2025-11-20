@@ -1,3 +1,183 @@
+# 🚀 <span style="color:#3B82F6;">Git Workflow Guide</span>
+
+This **Git Workflow Guide** is designed to help you and your team collaborate smoothly, avoid common mistakes, and maintain a clean, stable, and professional project structure.
+
+Since you’ve already completed the **installation** steps and have your project set up locally, this guide focuses entirely on **how to work with Git properly** — branching, committing, syncing, resolving conflicts, and teaming up with other developers.
+
+It ensures that every developer follows a consistent workflow, reducing errors and making teamwork faster, cleaner, and more predictable.
+
+---
+
+## ✔️ <span style="color:#10B981;">Requirements</span>
+
+- **Git** installed  
+- Access to the remote repository  
+- Basic understanding of your project  
+
+---
+
+## 🧭 <span style="color:#F59E0B;">1. Clone the Repository</span>
+
+```bash
+git clone https://github.com/<team>/<project>.git
+cd <project>
+```
+
+
+---
+
+## 🌿 <span style="color:#6366F1;">2. Create or Switch Branch</span>
+
+
+**Switch to an existing branch:**
+
+```
+git switch branch_name
+```
+
+**Create a new branch:**
+```
+git branch new-branch-name
+
+```
+---
+
+## 🔗 <span style="color:#8B5CF6;">3. Set Origin for Pull & Push</span>
+
+Set upstream branches easy and fast working:
+```
+
+git branch --set-upstream-to=origin/branch branch
+
+
+```
+
+> 🟦 Use this when Git says: “No upstream branch set.”
+
+---
+
+## 📋 <span style="color:#A855F7;">4. Get All Branches</span>
+
+```
+
+git branch
+```
+
+
+## 🔄 <span style="color:#0EA5E9;">5. Always Sync Before Starting Work</span>
+```
+git switch main
+git pull
+git switch your-branch
+git merge main
+
+```
+---
+
+## ✍️ <span style="color:#EC4899;">6. Stage & Commit Changes</span>
+
+**Stage everything:**
+```
+git add .
+
+Commit changes:
+
+git commit -m "Your message here"
+
+```
+---
+
+## 🚚 <span style="color:#3B82F6;">7. Push Changes to Repository</span>
+```
+git push
+```
+> [!NOTE]
+> Make sure, you have se origin upstream
+
+First push of a branch:
+```
+git push -u origin your-branch
+```
+
+---
+
+## 📥 <span style="color:#10B981;">8. Pull Latest Changes</span>
+
+```
+git pull
+```
+
+---
+
+## 🔀 <span style="color:#F59E0B;">9. Merge Main Into Your Branch</span>
+
+Keep your branch updated with latest changes:
+
+```
+git switch main
+git pull
+git switch your-branch
+git merge main
+```
+
+---
+
+## ⚔️ <span style="color:#EF4444;">10. Handle Merge Conflicts</span>
+
+If you see conflict markers:
+
+```
+<<<<<<< HEAD
+Your changes
+=======
+Their changes
+>>>>>>> main
+```
+Fix → save → commit:
+
+```
+git add .
+git commit -m "Resolve merge conflict"
+```
+
+---
+
+## 🤝 <span style="color:#8B5CF6;">11. Team Collaboration Rules</span>
+
+* ✔️ Always create a branch for new work
+
+- ✔️ Always pull before pushing
+
+* ✔️ Keep commit messages clear
+
+* ✔️ Use Pull Requests for merging
+
+* ✔️ Keep main clean & stable
+
++ ❌ Never work directly on main
+
+* ❌ Never push broken or untested code
+
+
+
+---
+
+## 🎯 <span style="color:#10B981;">Conclusion</span>
+
+**Following this workflow ensures:**
+
+* A clean and stable repository
+
+* Less conflicts
+
+* Faster teamwork
+
+* Predictable development flow
+
+
+
+---
+
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
 
@@ -11,4 +191,4 @@
 > Urgent info that needs immediate user attention to avoid problems.
 
 > [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
+> Advises about risks or negative
