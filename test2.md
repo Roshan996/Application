@@ -8,7 +8,7 @@ It ensures that every developer follows a consistent workflow, reducing errors a
 
 ---
 
-## ✔️ <span style="color:#10B981;">Requirements</span>
+## ✔️ <span>Requirements</span>
 
 - **Git** installed  
 - Access to the remote repository  
@@ -16,7 +16,7 @@ It ensures that every developer follows a consistent workflow, reducing errors a
 
 ---
 
-## 🧭 <span style="color:#F59E0B;">1. Clone the Repository</span>
+## 🧭 <span>1. Clone the Repository</span>
 
 ```bash
 git clone https://github.com/<team>/<project>.git
@@ -26,7 +26,7 @@ cd <project>
 
 ---
 
-## 🌿 <span style="color:#6366F1;">2. Create or Switch Branch</span>
+## 🌿 <span>2. Create or Switch Branch</span>
 
 
 **Switch to an existing branch:**
@@ -42,7 +42,7 @@ git branch new-branch-name
 ```
 ---
 
-## 🔗 <span style="color:#8B5CF6;">3. Set Origin for Pull & Push</span>
+## 🔗 <span>3. Set Origin for Pull & Push</span>
 
 Set upstream branches easy and fast working:
 ```
@@ -56,7 +56,7 @@ git branch --set-upstream-to=origin/branch branch
 
 ---
 
-## 📋 <span style="color:#A855F7;">4. Get All Branches</span>
+## 📋 <span>4. Get All Branches</span>
 
 ```
 
@@ -64,7 +64,7 @@ git branch
 ```
 
 
-## 🔄 <span style="color:#0EA5E9;">5. Always Sync Before Starting Work</span>
+## 🔄 <span>5. Always Sync Before Starting Work</span>
 ```
 git switch main
 git pull
@@ -72,9 +72,12 @@ git switch your-branch
 git merge main
 
 ```
+> [!WARNING]
+> Pulling before pushing prevents conflicts and keeps your branch updated.
+
 ---
 
-## ✍️ <span style="color:#EC4899;">6. Stage & Commit Changes</span>
+## ✍️ <span>6. Stage & Commit Changes</span>
 
 **Stage everything:**
 ```
@@ -87,7 +90,7 @@ git commit -m "Your message here"
 ```
 ---
 
-## 🚚 <span style="color:#3B82F6;">7. Push Changes to Repository</span>
+## 🚚 <span>7. Push Changes to Repository</span>
 ```
 git push
 ```
@@ -101,7 +104,7 @@ git push -u origin your-branch
 
 ---
 
-## 📥 <span style="color:#10B981;">8. Pull Latest Changes</span>
+## 📥 <span>8. Pull Latest Changes</span>
 
 ```
 git pull
@@ -109,7 +112,7 @@ git pull
 
 ---
 
-## 🔀 <span style="color:#F59E0B;">9. Merge Main Into Your Branch</span>
+## 🔀 <span>9. Merge Main Into Your Branch</span>
 
 Keep your branch updated with latest changes:
 
@@ -122,7 +125,7 @@ git merge main
 
 ---
 
-## ⚔️ <span style="color:#EF4444;">10. Handle Merge Conflicts</span>
+## ⚔️ <span>10. Handle Merge Conflicts</span>
 
 If you see conflict markers:
 
@@ -142,7 +145,7 @@ git commit -m "Resolve merge conflict"
 
 ---
 
-## 🤝 <span style="color:#8B5CF6;">11. Team Collaboration Rules</span>
+## 🤝 <span>11. Team Collaboration Rules</span>
 
 * ✔️ Always create a branch for new work
 
@@ -162,7 +165,7 @@ git commit -m "Resolve merge conflict"
 
 ---
 
-## 🎯 <span style="color:#10B981;">Conclusion</span>
+## 🎯 <span>Conclusion</span>
 
 **Following this workflow ensures:**
 
