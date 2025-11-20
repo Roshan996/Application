@@ -46,30 +46,27 @@ git branch new-branch-name
 
 Set upstream branches easy and fast working:
 ```
-
 git branch --set-upstream-to=origin/branch branch
 
-
 ```
-
-> 🟦 Use this when Git says: “No upstream branch set.”
+> [!NOTE]
+> Use this when Git says: “No upstream branch set.”
 
 ---
 
 ## 📋 <span>4. Get All Branches</span>
 
 ```
-
 git branch
 ```
 
 
 ## 🔄 <span>5. Always Sync Before Starting Work</span>
 ```
-git switch main
+git switch alpha
 git pull
 git switch your-branch
-git merge main
+git rebase alpha
 
 ```
 > [!NOTE]
@@ -82,9 +79,11 @@ git merge main
 **Stage everything:**
 ```
 git add .
+```
 
-Commit changes:
+**Commit changes:**
 
+```
 git commit -m "Your message here"
 
 ```
@@ -95,11 +94,12 @@ git commit -m "Your message here"
 git push
 ```
 > [!NOTE]
-> Make sure, you have se origin upstream
+> Make sure, you have se origin upstream.
+> Pulling before pushing prevents conflicts and keeps your branch updated.
 
 First push of a branch:
 ```
-git push -u origin your-branch
+git push -u origin branch-name
 ```
 
 ---
@@ -109,6 +109,10 @@ git push -u origin your-branch
 ```
 git pull
 ```
+
+> [!NOTE]
+> Make sure, you have se origin upstream.
+> Pulling before pushing prevents conflicts and keeps your branch updated.
 
 ---
 
