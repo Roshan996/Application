@@ -72,7 +72,7 @@ git switch your-branch
 git merge main
 
 ```
-> [!WARNING]
+> [!NOTE]
 > Pulling before pushing prevents conflicts and keeps your branch updated.
 
 ---
