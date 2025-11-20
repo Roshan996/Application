@@ -1,4 +1,4 @@
-# 🚀 <span style="color:#3B82F6;">Git Workflow Guide</span>
+# 🚀 <span>Git Workflow Guide</span>
 
 This **Git Workflow Guide** is designed to help you and your team collaborate smoothly, avoid common mistakes, and maintain a clean, stable, and professional project structure.
 
