@@ -1,6 +1,7 @@
 # 🚀 <span style="color:#3B82F6;">Installation Guide</span>
 
-A clean, **color‑themed professional** installation guide for your Godot project.
+Follow these steps to quickly set up your Godot project with all necessary addons and libraries:
+
 
 ---
 
