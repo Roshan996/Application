@@ -149,7 +149,7 @@ git commit -m "Resolve merge conflict"
 
 ---
 
-## 🤝 <span>11. Team Collaboration Rules</span>
+## :handshake: <span>11. Team Collaboration Rules</span>
 
 * ✔️ Always create a branch for new work
 
