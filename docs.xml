@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documentation>
+    <class name="PlayerController" file="scripts/player/PlayerController.gd">
+        <summary>Handles player plane movement, firing, and health.</summary>
+        <method name="Move" parameters="delta">
+            <summary>Moves the player plane based on input.</summary>
+            <param name="delta">Time since the last frame</param>
+            <remarks>Movement uses Input Map actions (W/A/S/D).</remarks>
+        </method>
+        <method name="FireWeapon">
+            <summary>Fires the primary weapon of the player plane.</summary>
+            <returns>True if the shot was fired successfully.</returns>
+            <example>
+                <![CDATA[
+                var fired = player.FireWeapon()
+                if fired:
+                    print("Bullet fired!")
+                ]]>
+            </example>
+        </method>
+    </class>
+</documentation>
